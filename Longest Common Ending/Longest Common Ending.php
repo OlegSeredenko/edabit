@@ -11,7 +11,7 @@ function longestCommonEnding($s1, $s2) {
 	}
 	$small_arr_count = count($small_arr)-1;
 	$big_arr_count = count($big_arr)-1;
-    $y = $small_arr_count+1;
+    	$y = $small_arr_count+1;
 	$count = 0;
 	for($i = 0; $i < $y; $i++){
 		if(($small_arr[$small_arr_count] == $big_arr[$big_arr_count]) && ($count == $i)){
