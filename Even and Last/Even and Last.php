@@ -9,6 +9,6 @@ function evenLast($arr) {
             $sum = $sum + $arr[$i];
         }
     }
-		return (array_pop($arr) * $sum);
+	return (array_pop($arr) * $sum);
 }
 ?>
