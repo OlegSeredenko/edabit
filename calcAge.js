@@ -2,6 +2,6 @@
 
 function calcAge(age) {
 	let days = age * 365;
-    let leapYear  = age  / 13;
+    let leapYear  = age  / 4;
     return (days + leapYear);
 }
